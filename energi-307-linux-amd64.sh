@@ -1,13 +1,13 @@
 #!/bin/bash -ex 
 
 #cat /etc/systemd/system/cfsvc-energi3.service
-cd /var/lib/energi3/
+#cd /var/lib/energi3/
 #ls -all
 systemctl stop cfsvc-energi3.service
 systemctl status cfsvc-energi3.service
-cd /var/lib/energi3/.energicore3/energi3/chaindata
+#cd /var/lib/energi3/.energicore3/energi3/chaindata
 #ls -all
-rm -rf /var/lib/energi3/.energicore3/energi3/chaindata/*
+#rm -rf /var/lib/energi3/.energicore3/energi3/chaindata/*
 #ls -all
 cd /var/lib/energi3/
 wget https://s3-us-west-2.amazonaws.com/download.energi.software/releases/energi3/3.0.7/energi3-3.0.7-linux-amd64.tgz

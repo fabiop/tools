@@ -24,7 +24,7 @@ chown -R energi3:energi3 /var/lib/energi3/.energicore3/energi3/chaindata/
 
 # preimages
 cd /var/lib/energi3/bin
-rm pre*
+rm -f pre*
 wget https://s3-us-west-2.amazonaws.com/download.energi.software/releases/chaindata/mainnet/preimages.rlp
 ./energi3 import-preimages preimages.rlp
 

@@ -4,7 +4,7 @@
 #cd /var/lib/energi3/
 #ls -all
 systemctl stop cfsvc-energi3.service
-systemctl status cfsvc-energi3.service
+#systemctl status cfsvc-energi3.service
 #cd /var/lib/energi3/.energicore3/energi3/chaindata
 #ls -all
 #rm -rf /var/lib/energi3/.energicore3/energi3/chaindata/*

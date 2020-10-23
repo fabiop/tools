@@ -22,8 +22,7 @@ rm -rf /var/lib/energi3/.energicore3/energi3/chaindata/*
 cd /var/lib/energi3/.energicore3/energi3/
 #wget https://s3-us-west-2.amazonaws.com/download.energi.software/releases/chaindata/mainnet/gen3-chaindata.tar.gz
 #unpacking directly in chaindata
-wget https://s3-us-west-2.amazonaws.com/download.energi.software/chaindata_block_325160_0x4cb544153
-c88b0568fbe8b9ea15d53361db5a5033b64133e0f4aaa8118413839.tar.gz
+wget https://s3-us-west-2.amazonaws.com/download.energi.software/chaindata_block_325160_0x4cb544153c88b0568fbe8b9ea15d53361db5a5033b64133e0f4aaa8118413839.tar.gz
 tar -xzvf chaindata_block_325160_0x4cb544153c88b0568fbe8b9ea15d53361db5a5033b64133e0f4aaa8118413839.tar.gz
 #tar -xzvf gen3-chaindata.tar.gz
 #rm -f gen3-chaindata.tar.gz

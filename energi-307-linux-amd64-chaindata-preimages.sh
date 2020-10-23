@@ -8,6 +8,7 @@ cd /var/lib/energi3/
 wget https://s3-us-west-2.amazonaws.com/download.energi.software/releases/energi3/3.0.7/energi3-3.0.7-linux-amd64.tgz
 tar -xzvf energi3-3.0.7-linux-amd64.tgz
 rm -rf energi3-3.0.7-linux-amd64.tgz
+rm -rf energicore3-3.0.7
 mv energi3-3.0.7-linux-amd64 energicore3-3.0.7
 ln -sfn /var/lib/energi3/energicore3-3.0.7/bin bin
 # ls -all
